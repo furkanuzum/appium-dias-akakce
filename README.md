@@ -22,6 +22,11 @@ How to Run
 How to for myself
 =================================================
 - ANDROID:
+    - Get split apks files
+        - Install the app into my Android phone
+        - Connect my phone to PC via usb cable
+        - Run ```adb shell pm path com.akakce.akakce```
+        - Run ```adb pull /path/to/apk /your/local/folder```
     - Detect correct appActivity  
 ```$ANDROID_HOME/platform-tools/adb shell cmd package resolve-activity --brief com.akakce.akakce```
 Install Appium Inspector
